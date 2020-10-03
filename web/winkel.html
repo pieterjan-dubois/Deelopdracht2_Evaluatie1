@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Winkel</title>
+  <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div class="wrapper">
+
+  <nav class="banner-main">
+    <img class="imagee" src="foodbanner.png" alt="banner met food network logo">
+  </nav>
+
+  <nav class="container teal borderYtoX">
+
+    <ul>
+      <li class="sectie">
+        <a href="index.html" >Home</a>
+      </li>
+      <li class="sectie">
+        <a href="winkel.html" class="selected">Winkel</a>
+      </li>
+      <li class="sectie">
+        <a href="mijnbestelling.html">Mijn Bestelling</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="formulier">
+    <form action="Servlet" method="GET">
+      <label for="productnaam">Product:</label>
+      <input type="text" id="productnaam" name="product" placeholder="*verplicht">
+
+      <label for="hoeveelheid">Hoeveelheid (in kilo)</label>
+      <input type="text" id="hoeveelheid" name="kilo" placeholder="*verplicht">
+
+      <label for="prijsaanbod">Prijsaanbod</label>
+      <input type="text" id="prijsaanbod" name="prijs" placeholder="*verplicht">
+
+      <input type="submit" value="Plaats bestelling">
+    </form>
+
+</div>
+</div>
+</body>
+</html>
